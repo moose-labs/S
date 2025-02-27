@@ -19,3 +19,4 @@ sol-value-calculator-onchain = { workspace = true }
 solana-program = { workspace = true }
 wsol-calculator-lib = { workspace = true }
 wsol_calculator_interface = { workspace = true }
+ahash = { version = "0.8.11" }

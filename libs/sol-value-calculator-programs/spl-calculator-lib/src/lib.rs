@@ -16,7 +16,7 @@ pub mod program {
 }
 
 pub mod initial_manager {
-    sanctum_macros::declare_program_keys!("CK9cEJT7K7oRrMCcEbBQRGqHLGpxKXWnKvW7nHSDMHD1", []);
+    sanctum_macros::declare_program_keys!("CbbbeKAhTcNpt7wLMdtE4S9XJT5tcC89tUDxGu3AJZAm", []);
 }
 
 pub struct SplSolValCalc;

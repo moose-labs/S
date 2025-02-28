@@ -5,7 +5,7 @@ pub mod initial_authority {
     sanctum_macros::declare_program_keys!("9S3avfRxH9RYbMHbvxnhwiwpdF9iuXG7uWiatqWvQskT", []);
 
     #[cfg(not(feature = "testing"))]
-    sanctum_macros::declare_program_keys!("CK9cEJT7K7oRrMCcEbBQRGqHLGpxKXWnKvW7nHSDMHD1", []);
+    sanctum_macros::declare_program_keys!("CbbbeKAhTcNpt7wLMdtE4S9XJT5tcC89tUDxGu3AJZAm", []);
 }
 
 pub const CURRENT_PROGRAM_VERS: u8 = 1;

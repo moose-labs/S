@@ -752,11 +752,15 @@
       "args": [
         {
           "name": "new_trading_protocol_fee_bps",
-          "type": { "option": "u16" }
+          "type": {
+            "option": "u16"
+          }
         },
         {
           "name": "new_lp_protocol_fee_bps",
-          "type": { "option": "u16" }
+          "type": {
+            "option": "u16"
+          }
         }
       ],
       "accounts": [
@@ -774,7 +778,6 @@
         }
       ]
     },
-
     {
       "name": "SetProtocolFeeBeneficiary",
       "discriminant": {
@@ -1290,9 +1293,14 @@
           {
             "name": "padding",
             "type": {
-              "array": ["u8", 1]
+              "array": [
+                "u8",
+                1
+              ]
             },
-            "attrs": ["padding"]
+            "attrs": [
+              "padding"
+            ]
           },
           {
             "name": "admin",
@@ -1337,9 +1345,14 @@
           {
             "name": "padding",
             "type": {
-              "array": ["u8", 5]
+              "array": [
+                "u8",
+                5
+              ]
             },
-            "attrs": ["padding"]
+            "attrs": [
+              "padding"
+            ]
           },
           {
             "name": "sol_value",
@@ -1368,9 +1381,14 @@
           {
             "name": "padding",
             "type": {
-              "array": ["u8", 4]
+              "array": [
+                "u8",
+                4
+              ]
             },
-            "attrs": ["padding"]
+            "attrs": [
+              "padding"
+            ]
           },
           {
             "name": "dst_lst_index",
@@ -1569,6 +1587,6 @@
   ],
   "metadata": {
     "origin": "shank",
-    "address": "5ocnV1qiCgaQR8Jb8xWnVbApfaygJ8tNoZfgPwsgx9kx"
+    "address": "43vcPfe8ThRLwfJqhXoM2KwqmpqQK1wCrfvZsxrULsbQ"
   }
 }

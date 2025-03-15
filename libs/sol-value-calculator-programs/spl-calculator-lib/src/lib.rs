@@ -16,6 +16,10 @@ pub mod program {
 }
 
 pub mod initial_manager {
+    #[cfg(feature = "testing")]
+    sanctum_macros::declare_program_keys!("J5aMuYiKNHUzMTpUS85413DxxvDVjNXs63EXW5twG1Mx", []);
+
+    #[cfg(not(feature = "testing"))]
     sanctum_macros::declare_program_keys!("CbbbeKAhTcNpt7wLMdtE4S9XJT5tcC89tUDxGu3AJZAm", []);
 }
 

@@ -3,6 +3,9 @@ name = "spl-calculator-lib"
 version = "2.0.0"
 edition = "2021"
 
+[features]
+testing = []
+
 [dependencies]
 borsh = { workspace = true }
 generic_pool_calculator_interface = { workspace = true }

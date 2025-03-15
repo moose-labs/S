@@ -3,6 +3,9 @@ name = "marinade-calculator-lib"
 version = "1.0.0"
 edition = "2021"
 
+[features]
+testing = []
+
 [dependencies]
 generic_pool_calculator_interface = { workspace = true }
 generic-pool-calculator-lib = { workspace = true }

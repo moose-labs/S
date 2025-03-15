@@ -5,7 +5,7 @@ edition = "2021"
 
 [features]
 no-entrypoint = []
-testing = [] # not used, added so that we can run cargo-test-sbf at workspace root to test all programs
+testing = ["lido-calculator-lib/testing"]
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -29,7 +29,7 @@ generic-pool-calculator-test-utils = { workspace = true }
 sanctum-solana-test-utils = { workspace = true, features = ["token"] }
 sanctum-token-ratio = { workspace = true }
 solana-program-test = { workspace = true }
-solana-readonly-account = { workspace = true, features = ["solana-sdk"]}
+solana-readonly-account = { workspace = true, features = ["solana-sdk"] }
 solana-sdk = { workspace = true }
 test-utils = { workspace = true }
 tokio = { workspace = true }

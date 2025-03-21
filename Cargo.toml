@@ -34,7 +34,7 @@ anyhow = "^1"
 assert_cmd = "^2"
 async-trait = ">=0.1"
 bincode = "^1"
-borsh = ">=0.9"
+borsh = ">=0.9, <1"
 bs58 = "^0.4"
 bytemuck = "^1"
 clap = { version = "^4", features = ["derive"] }
@@ -83,7 +83,7 @@ sanctum-solana-cli-utils = { git = "https://github.com/igneous-labs/sanctum-sola
 sanctum-solana-client-utils = { git = "https://github.com/igneous-labs/sanctum-solana-utils.git", branch = "f6c40a0-loose-deps" }
 sanctum-solana-test-utils = { git = "https://github.com/igneous-labs/sanctum-solana-utils.git", branch = "f6c40a0-loose-deps" }
 sanctum-system-program-lib = { git = "https://github.com/igneous-labs/sanctum-solana-utils.git", branch = "f6c40a0-loose-deps" }
-sanctum-token-ratio = { git = "https://github.com/igneous-labs/sanctum-solana-utils.git", branch = "f6c40a0-loose-deps" } 
+sanctum-token-ratio = { git = "https://github.com/igneous-labs/sanctum-solana-utils.git", branch = "f6c40a0-loose-deps" }
 system_program_interface =  { git = "https://github.com/igneous-labs/sanctum-solana-utils.git", branch = "f6c40a0-loose-deps" }
 
 # sanctum-lst-list

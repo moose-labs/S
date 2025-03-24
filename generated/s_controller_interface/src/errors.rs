@@ -84,6 +84,8 @@ pub enum SControllerError {
     SwapSameLst = 35,
     #[error("Cannot add the same authority that has already been authorized")]
     DuplicateDisablePoolAuthority = 36,
+    #[error("The feature is not supported")]
+    FeatureNotSupported = 999,
 }
 impl From<SControllerError> for ProgramError {
     fn from(e: SControllerError) -> Self {

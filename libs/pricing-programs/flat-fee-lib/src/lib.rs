@@ -19,7 +19,7 @@ pub mod program {
     );
 
     sanctum_macros::declare_program_keys!(
-        "3LqXTGs1UtPaFPtQG8WDV6a6KyeXPrajhq7yjSvAGQiY",
+        "fee6wD3n9nMMbfV8YgqUjVHoxahTVSqF5fW6Z1hb458",
         [("state", b"state")]
     );
 }
@@ -30,7 +30,7 @@ pub mod initial_constants {
         sanctum_macros::declare_program_keys!("J5aMuYiKNHUzMTpUS85413DxxvDVjNXs63EXW5twG1Mx", []);
 
         #[cfg(not(feature = "testing"))]
-        sanctum_macros::declare_program_keys!("CbbbeKAhTcNpt7wLMdtE4S9XJT5tcC89tUDxGu3AJZAm", []);
+        sanctum_macros::declare_program_keys!("mmm9Z2ZaGBPdwkLZg2yTRNPxaHrvq8hSQMRVewCfECb", []);
     }
 
     pub const INITIAL_LP_WITHDRAWAL_FEE_BPS: u16 = 5;

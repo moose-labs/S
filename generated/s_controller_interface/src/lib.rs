@@ -1,4 +1,4 @@
-solana_program::declare_id!("43vcPfe8ThRLwfJqhXoM2KwqmpqQK1wCrfvZsxrULsbQ");
+solana_program::declare_id!("maXsoLmywA737Cr4onbYcCmLg32hXtGK3VLjEgg48Rv");
 pub mod typedefs;
 pub use typedefs::*;
 pub mod instructions;

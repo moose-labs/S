@@ -1,4 +1,6 @@
+use add_liquidity::AddLiquidityArgs;
 use clap::Subcommand;
+use remove_liquidity::RemoveLiquidityArgs;
 
 use self::{
     add_disable_auth::AddDisableAuthArgs, add_lst::AddLstArgs,
@@ -14,6 +16,7 @@ use self::{
 };
 
 mod add_disable_auth;
+mod add_liquidity;
 mod add_lst;
 mod disable_lst_input;
 mod disable_pool;
@@ -22,6 +25,7 @@ mod enable_pool;
 mod init;
 mod rebal_sol;
 mod remove_disable_auth;
+mod remove_liquidity;
 mod remove_lst;
 mod set_admin;
 mod set_pricing_prog;
@@ -56,6 +60,8 @@ pub enum Subcmd {
     WithdrawProtocolFees(WithdrawProtocolFeesArgs),
     View(ViewArgs),
     RebalSol(RebalSolArgs),
+    AddLiquidity(AddLiquidityArgs),
+    RemoveLiquidity(RemoveLiquidityArgs),
 }
 
 impl Subcmd {
@@ -81,6 +87,8 @@ impl Subcmd {
             Self::WithdrawProtocolFees(_) => WithdrawProtocolFeesArgs::run(args).await,
             Self::View(_) => ViewArgs::run(args).await,
             Self::RebalSol(_) => RebalSolArgs::run(args).await,
+            Self::AddLiquidity(_) => AddLiquidityArgs::run(args).await,
+            Self::RemoveLiquidity(_) => RemoveLiquidityArgs::run(args).await,
         }
     }
 }
